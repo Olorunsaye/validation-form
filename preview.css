@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(196, 187, 187);
+    color: rgb(45, 42, 38);
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+h3{
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 18px ;
+}
+
+span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+}

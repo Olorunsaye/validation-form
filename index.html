@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration From</title>
+    <link rel="stylesheet" href="style.css">
+    <img src="logo_size_invert.jpg" alt="MyLogo" width="50px">
+
+    <style>
+        
+        
+    </style>
+
+    <h2>Student Registration From</h2>
+    <p>Fill out the form to apply for the training courses. You can consider application accepted after you receive 
+        a confirmation email.
+    </p>
+</head>
+<body>
+    
+<div class="form container"> 
+     
+<h4>Student Information</h4>
+
+<form action="" onsubmit="processform()" name="Student Registration Form" id="Student Registration Form">
+
+<input type="text" name="firstName" id="First Name" placeholder="Enter Your First Name" style="width: 30%;" required/>
+<input type="text" name="middleName" id="Middle Name" placeholder="Enter Middle Name" style="width: 30%;" />
+<input type="text" name="lastName" id="Last Name" placeholder="Enter Your Last Name" style="width: 30%;"required/><br>
+<input type="date" name="dateOfbirth" id="Date of Birth" placeholder="Date of Birth" style="width: 30%;" required/>
+<input type="text" name="studentID" id="Student ID" placeholder="Student ID" style="width: 30%;" required/>
+
+<h4>Address</h4>
+
+<input type="text" name="streetAddress" id="Street Address" placeholder="Street Address" style="width: 92%;"><br>
+<input type="text" name="city" id="City" placeholder="City" style="width: 44%;">
+<input type="text" name="state Province" id="State / Province" placeholder="State / Province" style="width: 47%;"><br>
+<input type="text" name="country" id="Country" placeholder="Country" style="width: 44%;">
+<input type="zip code" name="zipCode" id="Zip Code" placeholder="Zip Code" style="width: 47%;">
+
+<h4>Contact Information</h4>
+
+<input type="email" name="E-mail" id="E-mail" placeholder="E-mail" style="width: 44%;">
+<input type="text" style="width: 47%;">
+
+<h4>Courses <span>*</span></h4>
+<input type="text" class="new" placeholder=" + Add new record" style="width: 92%;"><br>
+   
+
+<select name="coursedrop">
+<option value="Course" class="course">Course</option>
+<option value="Course" class="course">Software Development</option>
+<option value="Course" class="course">Data Analytics</option>
+<option value="Course" class="course">Technical Writing</option>
+</select>
+
+
+
+<select name="leveldrop">
+<option value="Leveldrop" class="level">Level</option>
+<option value="Leveldrop" class="level">Beginner</option>
+<option value="Leveldrop" class="level">Intermediate</option>
+<option value="Leveldrop" class="level">Advanced</option>
+</select>
+
+
+<select name="languagedrop">
+<option value="Language" class="language">Language</option>
+<option value="Language" class="language">English</option>
+<option value="Language" class="language">Yoruba</option>
+<option value="Language" class="language">Hausa</option>
+</select>
+
+
+<select name="startdate">
+    <option value="Start Date" class="startdate">Start Date</option>
+    <option value="Start Date" class="startdate">2021</option>
+    <option value="Start Date" class="startdate">2022</option>
+    <option value="Start Date" class="startdate">2023</option>
+</select>
+
+
+
+<textarea name="Comments" id="" cols="97" rows="6" placeholder="Comments"></textarea>
+
+<input type="submit" value="SEND FEEDBACK" style="width: 92.2%; background: #2c7b89; font-weight: 900; color: rgb(198, 202, 204);"><br>
+
+
+<button id="preview"> <a href="/preview.html">PREVIEW PAGE</a></button>
+
+
+
+
+    
+    <script src="script.js"></script>
+</div>
+</form>
+</body>
+</html>
